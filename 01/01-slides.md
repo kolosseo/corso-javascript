@@ -65,12 +65,12 @@ Questo era un problema piuttosto sentito durante le prime generazioni di browser
 
 
 Attualmente, tuttavia, tutti i maggiori browser sono ben allineati allo standard *ECMAScript*,
-ed esistono script che permettono di sitemare i *disallineamenti* più noti.
+esistono anche script e librerie che permettono di sitemare i *disallineamenti* più noti.
 Ad esempio:
 
-* html5shiv
-* Modernizer
+* Modernizr
 * jQuery
+* html5shiv
 
 
 ----
@@ -104,7 +104,7 @@ Tra i vari link e tool di riferimento, ne segnalo alcuni:
 ----
 
 
-I browser di maggiore diffusione sono, al momento:<br>
+I browser di maggiore diffusione sono, al momento, secondo l' ordine di utilizzo:<br>
 *Chrome*, *Firefox*, *Internet Explorer*, *Safari*, *Opera*.<br>
 <br>
 Per sviluppare, vengono generalmente preferiti *Chrome* e *Firefox*, i quali integrano nativamente un maggiore supporto per lo sviluppo.
