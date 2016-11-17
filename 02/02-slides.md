@@ -11,10 +11,9 @@ Ambiente di Sviluppo
 Risorse nel Web
 ===============
 - [MDN](https://developer.mozilla.org/it/)
-- [MSDN](http://msdn.microsoft.com/it-it/default.aspx)
+- [MSDN](https://msdn.microsoft.com/en-us/library/)
+- [Google Developers](https://developers.google.com)
 - [w3school](http://www.w3schools.com/)
-- [quirksmode](http://www.quirksmode.org/): incompatibilità tra browsers
-- [ECMAScript](http://www.ecma-international.org/publications/standards/Ecma-262.htm): specifiche formali del linguaggio
 - [W3C DOM](http://www.w3.org/DOM/DOMTR)
 
 
@@ -36,8 +35,8 @@ alert('Hello World!');
 ```
 
 index.html:
-```HTML
-<script src="index.js" >< /script>
+```html
+<script src="index.js">< /script>
 ```
 
 
@@ -52,8 +51,8 @@ console.log('Hello World!');
 ```
 
 index.html:
-```HTML
-<script src="index.js" >< /script>
+```html
+<script src="index.js"></ script>
 ```
 
 
@@ -79,11 +78,15 @@ i nostri "hello world"
 ```
 ***
 ```javascript
-window.location.href = "http://www.google.it"
+window.location.href = 'http://www.google.it'
 ```
 ***
 ```javascript
-document.bgColor = "red"
+document.bgColor = 'red'
+```
+
+```javascript
+document.body.style.backgroundColor = 'white'
 ```
 
 
@@ -95,7 +98,8 @@ interazione
 - prompt
 - confirm
 - window.location.hash
-- etc... (lista infinitamente lunga)
+- etc...
+
 
 ----
 
@@ -153,3 +157,30 @@ e che nel dominio della mail ci possa essere un solo punto.
 Es. axyzxp@gmail.com -> axyzxp[at]gmail[dot]com
 
 mario.rossi@yahoo.it -> mario.rossi[at]yahoo[dot]it
+
+
+----
+
+Esercizi extra
+==============
+
+Creare degli elementi *div* di CLASSE "pluto" e uno di ID "ciccio", fate sì che i *div* abbiano dei contenuti testuali, poi lanciare i seguenti comandi da console
+
+```javascript
+document.getElementsByClassName("pluto")
+```
+
+```javascript
+document.getElementById('ciccio').style.color = 'blue';
+```
+
+```javascript
+document.document.getElementsByTagName('div')
+```
+
+```javascript
+var c = document.body.childNodes
+console.log(c)
+c[2].text
+c[4].text
+```
