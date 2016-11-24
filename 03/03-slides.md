@@ -7,13 +7,14 @@ TIPI DI DATI
 
 Numeri
 ------
-- interi : 1, 2, -3
-- reali : 0.2, .3, -1.5...
-- notazione scientifica : 1.333e9
-- numeri in base 8 : 0777
-- numeri in base 16 : 0xff
-- Infinity : 5/0
-- NaN (Not a Number) : 0/0, 3 * "a"
+- interi: 1, 2, -3
+- reali: 0.2, .3, -1.5...
+- notazione scientifica: 1.333e9
+- numeri in base 2: 0b10010
+- numeri in base 8: 0777
+- numeri in base 16: 0xff
+- Infinity: 5/0
+- NaN (Not a Number): 0/0, 3 * "a"
 
 
 ----
@@ -42,8 +43,9 @@ Booleani
 
 Tipi speciali
 -------------
-- null
-- undefined
+- *`null`*: valore inesistente o vuoto (quando assegnato volutamente)
+
+- `undefined`: variabile dichiarata ma senza valore assegnato
 
 
 ---
@@ -77,7 +79,7 @@ Conversioni automatiche (occhio!)
 - ("5" + 1) // 51
 - ("five" * 2) // NaN
 - (false == 0) // true
-- Array(16).join("lol" - 2) + " Batman!";  // :)
+- Array(16).join("lol" - 2) + " Batman!"  // :)
 
 ----
 
@@ -92,7 +94,7 @@ Comparare i Booleani
 - (undefined == undefined); // true
 - (undefined == null); // true
 - (NaN == null); // false
-- (NaN == NaN); // false
+- (NaN == NaN); // false 
 - (2 == "2"); // true !
 - (12 == 1 + "2"); // true !!
 
@@ -107,7 +109,7 @@ l'uguaglianza solo se i dati sono effettivamente identici
 
 - ("ciao" === "ciao"); // true
 - (2.0 === 2); // true
-- (NaN === NaN); // false !
+- (NaN === NaN); // false!! :O (maggiori info [qui](https://ariya.io/2014/05/the-curious-case-of-javascript-nan))
 - (null === null); // true
 - (null === undefined); // false
 
@@ -235,7 +237,10 @@ Scacchiera
 Scrivere un programma che stampi in console una scacchiera 8x8, dove le caselle
 nere sono rappresentate dal simbolo [#] e quelle bianche dal simbolo [ ]
 
-[soluzione](http://jsbin.com/guxexo/4/edit?html,js,output)
+[soluzione 1](http://jsbin.com/bedigexemu/edit?js,console)
+[soluzione 2](http://jsbin.com/guxexo/4/edit?js,console)
+[soluzione 3](http://jsbin.com/yucoremizu/edit?js,console)
+
 
 ----
 
@@ -251,7 +256,8 @@ Ottobre -> Quarto trimestre
 
 mAgGio -> Secondo Trimestre
 
-[soluzione](http://jsbin.com/fumagi/1/edit?html,js,output)
+[soluzione](http://jsbin.com/fumagi/1/edit?js,output)
+
 
 ----
 
@@ -266,17 +272,19 @@ Es. 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16,
 
 Un grande classico della programmazione
 
-[soluzione](http://jsbin.com/kukega/1/edit?html,js,output)
+[soluzione](http://jsbin.com/kukega/1/edit?js,output)
+
 
 ----
+
 
 vOcAlI
 ------
 Scrivere un programma che data una stringa minuscola la stampi con le vocali maiuscole
 
-Es. andrea -> AndrEA
+Es. giovannino -> gIOvAnnInO
 
 Per quanto vi siano soluzioni semplici ma tediose, si consiglia di sbirciare
 tra le funzioni di stringhe ed array per trovare una soluzione elegante.
 
-[soluzione](http://jsbin.com/kajujo/1/edit?html,js,output)
+[soluzione](http://jsbin.com/vosume/edit?js,console)
