@@ -193,10 +193,10 @@ switch
 ------
 ```
 switch (espressione) {
-  case n:
+  case "a":
     istruzione;
     break;
-  case n:
+  case "b":
     istruzione;
     break;
   default:
