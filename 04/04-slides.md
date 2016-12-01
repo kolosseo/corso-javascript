@@ -50,9 +50,9 @@ Questo vale anche per le funzioni stesse in quanto possono essere assegnate a de
 
 ATTENZIONE
 ----------------
-Parentesi graffe non significa scope isolato, questo è vero soltanto per le funzioni, ma non per i flussi di controllo (id, for, while, etc...)
+Parentesi graffe non significa scope isolato, questo è vero soltanto per le funzioni, ma non per i flussi di controllo (if, for, while, etc...)
 
-In ECMAScript 6 ci sarà la parola chiave let
+Da ECMAScript 6 in poi, si usa la parola chiave *let* al posto di *var*
 
 
 ----
@@ -84,7 +84,7 @@ function cube(x) {
 }
 ```
 
-La notazione breve permette di usare la funzione prima di averla dichiarata
+La notazione breve permette di usare la funzione senza prima dichiararla
 
 N.B. mai dichiarare una funzione all'interno di un if
 
@@ -132,7 +132,7 @@ in JavaScript tutti gli argomenti sono considerati opzionali
 
 ```javascript
 function ciao(name) {
-  name = (name === undefined)? "" : name;
+  name = (name === undefined)? "mondo" : name;
   console.log("ciao " + name)
 }
 ```
@@ -175,7 +175,7 @@ console.log(wrap2()); // 2
 
 In parole povere le variabili definite all'interno di una funzione sono globalmente disponibili all'interno di eventuali funzioni nidificate.
 
-Utile nella programmazione funzionale, in quanto diviene semplice scrivere funzioni che ritornino nuove funzioni che si comportano diversamente a seconda dell'argomento passato.
+Utile nella programmazione funzionale, in quanto diviene semplice scrivere funzioni che ritornino nuove funzioni che si comportano diversamente a seconda dell'argomento passato (es. il metodo delle stringhe *replace*).
 
 
 ----
@@ -206,7 +206,7 @@ a prova di spam come definito nella lezione 2.
 Si invita inoltre a cercare di scomporre il problema in più funzioni che si
 possano riutilizzare in futuro.
 
-[soluzione](http://jsbin.com/waxego/2/edit?html,js,output)
+[soluzione](http://jsbin.com/yaveze/edit?js,console)
 
 ----
 
@@ -218,7 +218,8 @@ che restituisca il valore calcolato della potenza.
 
 Si invita inoltre a cercare di risolvere il problema in maniera ricorsiva.
 
-[soluzione](http://jsbin.com/comev/1/edit?html,js,output)
+[soluzione1](http://jsbin.com/fuloye/edit?js,console)
+[soluzione2](http://jsbin.com/yekicaf/edit?js,console)
 
 ----
 
@@ -229,4 +230,7 @@ Scrivere una funzione scacchiera che prenda in input un valore di altezza ed
 uno di larghezza e restituisca una stringa contenente una scacchiera di tali
 dimensioni.
 
-[soluzione](http://jsbin.com/kaxepa/1/edit?html,js,output)
+[soluzione scorsa](http://jsbin.com/kaquzaz/edit?js,console) (senza funzione)
+<!--
+[soluzione con funzione](http://jsbin.com/yepedus/edit?js,console)
+-->

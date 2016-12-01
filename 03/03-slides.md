@@ -237,9 +237,9 @@ Scacchiera
 Scrivere un programma che stampi in console una scacchiera 8x8, dove le caselle
 nere sono rappresentate dal simbolo [#] e quelle bianche dal simbolo [ ]
 
-[soluzione 1](http://jsbin.com/bedigexemu/edit?js,console)
-[soluzione 2](http://jsbin.com/guxexo/4/edit?js,console)
-[soluzione 3](http://jsbin.com/yucoremizu/edit?js,console)
+[soluzione1](http://jsbin.com/kaquzaz/edit?js,console)
+[soluzione2](http://jsbin.com/guxexo/4/edit?js,console)
+[soluzione3](http://jsbin.com/yucoremizu/edit?js,console)
 
 
 ----
