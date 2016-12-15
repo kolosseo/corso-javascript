@@ -114,7 +114,7 @@ Funzioni Ricorsive
 ---------------------
 ```javascript
 function fattoriale(n) {
-  return (n === 0)? 1 : n * fattoriale(n - 1);
+  return (n === 0) ? 1 : n * fattoriale(n - 1);
 }
 ```
 
@@ -230,7 +230,4 @@ Scrivere una funzione scacchiera che prenda in input un valore di altezza ed
 uno di larghezza e restituisca una stringa contenente una scacchiera di tali
 dimensioni.
 
-[soluzione scorsa](http://jsbin.com/kaquzaz/edit?js,console) (senza funzione)
-<!--
-[soluzione con funzione](http://jsbin.com/yepedus/edit?js,console)
--->
+[soluzione](http://jsbin.com/yepedus/edit?js,console)

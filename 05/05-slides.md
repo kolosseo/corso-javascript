@@ -20,12 +20,12 @@ obj.prop2 = valore2;
 
 Es.
 ```javascript
-var andrea = {
-  nome: "Andrea",
-  cognome: "Moretti"i,
-  email: "axyzxp@gmail.com"
+var jacopo = {
+  nome: "Jacopo",
+  cognome: "Pace",
+  email: "jacopo.pace@gmail.com"
 };
-console.log(andrea.email);
+console.log(jacopo.email);
 ```
 
 
@@ -43,7 +43,8 @@ object.key
 
 oppure con l'operatore []
 ```javascript
-object["key"] // deve essere passata una stringa o qualcosa che ritorni una stringa
+object["key"]
+// va passata una stringa o qualcosa che ritorni una stringa
 ```
 
 
@@ -77,8 +78,8 @@ function Persona(nome, cognome) {
   this.cognome = cognome;
 }
 
-andrea = new Persona("Andrea", "Moretti");
-console.log(andrea.cognome); // Moretti
+jacopo = new Persona("Jacopo", "Pace");
+console.log(jacopo.cognome); // Pace
 ```
 
 
@@ -97,8 +98,8 @@ function Persona(nome, cognome) {
     console.log(this.nome + " " + this.cognome);
   }
 }
-andrea = new Persona("Andrea", "Moretti");
-andrea.stampa(); // Andrea Moretti
+jacopo = new Persona("Jacopo", "Pace");
+jacopo.stampa(); // Jacopo Pace
 ```
 
 Funzioni di questo tipo vengono chiamate (non proprio correttamente) costruttori.
@@ -140,7 +141,7 @@ ESERCIZI
 
 Creato
 ------
-Programmare un oggetto che alla sua creazione scrivi in consolle "oggetto creato"
+Programmare un oggetto che alla sua creazione scrivi in console "oggetto creato"
 
 
 ----
@@ -152,15 +153,18 @@ Creare un oggetto Person da inizializzarsi con le proprietà name, surname e mai
 la mail dovrà però essere passata come normale stringa, ma essere salvata
 internamente come mail in formato antispam.
 ```javascript
-var axyz = new Person(
-  "Andrea",
-  "Moretti",
-  "axyzxp@gmail.com");
+var jacopo = new Person(
+  "Jacopo",
+  "Pace",
+  "jacopo.pace@gmail.com");
 
-console.log(axyz.mail); // axyzxp[at]gmail[dot]com
+console.log(jacopo.mail); // jacopo[dot]pace[at]gmail[dot]com
 ```
 
-[soluzione](http://jsbin.com/bimaze/1/edit?html,js,output)
+[soluzione scorsa antispam](http://jsbin.com/yaveze/edit?js,console)
+<!--
+[soluzione](http://jsbin.com/jigomijeje/edit?js,console)
+-->
 
 ----
 
@@ -175,4 +179,8 @@ console.log(cinque.fact()); // 120
 console.log(cinque.pow(2)); // 25
 ```
 
+[potenza](http://jsbin.com/yekicaf/edit?js,console)
+[fattoriale](http://jsbin.com/zamito/edit?js,console)
+<!--
 [soluzione](http://jsbin.com/zecufu/2/edit?html,js,output)
+-->
