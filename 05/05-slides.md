@@ -161,7 +161,10 @@ var jacopo = new Person(
 console.log(jacopo.mail); // jacopo[dot]pace[at]gmail[dot]com
 ```
 
-[soluzione scorsa antispam](http://jsbin.com/yaveze/edit?js,console)
+[soluzione scorsa antispam](http://jsbin.com/yaveze/edit?js,console)  
+<!--  
+[soluzione](http://jsbin.com/jigomijeje/edit?js,console)
+-->
 
 ----
 
@@ -177,4 +180,7 @@ console.log(cinque.pow(2)); // 25
 ```
 
 [potenza](http://jsbin.com/yekicaf/edit?js,console)  
-[fattoriale](http://jsbin.com/zamito/edit?js,console)
+[fattoriale](http://jsbin.com/zamito/edit?js,console)  
+<!--  
+[soluzione](http://jsbin.com/zecufu/2/edit?html,js,output)
+-->

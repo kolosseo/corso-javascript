@@ -17,7 +17,7 @@ Funzioni anonime
 --------------------
 Se in JavaScript scriviamo "ciao" abbiamo creato una stringa; possiamo assegnarla ad una variabile, passarla come argomento ad una funzione o utilizzarla in espressioni complesse.
 
-Le funzioni si comportano esattamente nello modo:
+Le funzioni si comportano esattamente nello stesso modo:
 
 ```javascript
 function (x) { return x * 2; }
@@ -170,3 +170,5 @@ restituisca il triangolo **rettangolo** con la superficie più grande.
 Si possono scrivere tutte le funzioni ausiliare che si vogliano, ma si possono
 utilizzare solo i seguenti metodi già esistenti: map, filter, reduce, every,
 some
+
+[Soluzione](http://jsbin.com/toqoco/edit?js,console)
