@@ -8,9 +8,9 @@ DOM
 Cos'è il DOM
 ------------
 Il Document Object Model è una struttura dati ad albero che rappresenta il
-contnuto di un documento strutturato.
+contenuto di un documento strutturato.
 
-In particolare tale modello è utilizzato nei browser pre rappresentare il
+In particolare tale modello è utilizzato nei browser per rappresentare il
 contenuto delle pagine web.
 
 Nel browser viene fornito l'oggetto document, utilizzabile in JavaScript che
