@@ -93,7 +93,7 @@ il suo contenuto o il suo stile.
 - innerHTML è un attributo modificabile che contiene l'html all'interno del nodo.
 - innerText è un attributo modificabile che contiene il testo (privato dei tag
   HTML) all'interno del nodo.
-- la proprietà style di un nodo è un oggetto contentente tutte le proprietà
+- la proprietà style di un nodo è un oggetto contenente tutte le proprietà
   impostabili tramite css (es. width, color, fontFamily, position, left, etc...)
 
 
@@ -102,7 +102,7 @@ il suo contenuto o il suo stile.
 
 Layout
 ------
-Esistono delle funzioni che ci aiutano a deterinare le attuali dimensioni e
+Esistono delle funzioni che ci aiutano a determinare le attuali dimensioni e
 posizione di un elemento.
 
 - getBoundingClientRect() restituisce un oggetto clientRect contenente le
@@ -117,7 +117,7 @@ posizione di un elemento.
 
 Attributi
 ---------
-É possibile leggere o scrivere gli ttributi di un elemento del DOM
+É possibile leggere o scrivere gli attributi di un elemento del DOM
 
 - getAttribute(attr) restituisce il contenuto dell'attributo specificato
 - setAttribute(attr, value) assegna il valore specificato all'attributo.
