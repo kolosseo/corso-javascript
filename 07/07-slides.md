@@ -213,6 +213,7 @@ restituisca un elemento del DOM contentente una scala di n scalini, dove ogni
 scalino ha altezza stepH e la larghezza del primo scalino sia stepW, mentre il
 successivo sarà largo il doppio, il seguente il triplo e così via.
 color indica il colore sotto forma di stringa esadecimale (es. #3c3c3c).
+
 ----
 [Soluzione](https://jsfiddle.net/piero80/t3eepx4w/)
 
