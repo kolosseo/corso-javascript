@@ -230,3 +230,5 @@ float: left.
 
 per mandare a capo un'insieme di div floated si può inserire un div vuoto
 avente la proprietà css clear: both.
+
+[Soluzione](https://jsfiddle.net/piero80/3jm4scp5/)
