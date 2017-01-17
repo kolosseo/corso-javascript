@@ -29,7 +29,7 @@ Abbiamo due modi di definire gli eventhandlers:
 
 ```javascript
 element.onclick = functionName;
-});
+
 ```
 
 ```javascript
