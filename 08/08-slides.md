@@ -25,6 +25,12 @@ Event Handlers
 --------------
 In JavaScript è possibile definire degli event handlers ovvero funzioni che
 vengono eseguite al verificarsi di un evento.
+Abbiamo due modi di definire gli eventhandlers:
+
+```javascript
+element.onclick = functionName;
+});
+```
 
 ```javascript
 element.addEventListener("click", function() {
