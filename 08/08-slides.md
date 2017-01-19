@@ -170,7 +170,7 @@ Creare due bottoni "red" e "blue" che se cliccati cambiano lo sfondo della pagin
 
 
 ----
-
+[Soluzione](https://jsfiddle.net/piero80/gh4cfoyy/)
 
 Disegno
 -------
@@ -180,3 +180,5 @@ Creare una pagina dove si possa disegnare con il mouse.
 - se non si clicca no!
 - non importa che la linea sia continua, va bene una semplice successione di
   punti.
+----
+[Soluzione](https://jsfiddle.net/piero80/padwhps9/)
