@@ -244,9 +244,12 @@ alternative di jQuery
 
 
 ----
-
+[Soluzione](https://jsfiddle.net/piero80/5fn41n2w/2/)
 
 Scacchiera interattiva
 ----------------------
 Modificare il programma precedente in modo che cliccando su una casella si
 scambi il suo colore.
+
+----
+[Soluzione](https://jsfiddle.net/piero80/5fn41n2w/3/)
