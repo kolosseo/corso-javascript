@@ -302,3 +302,7 @@ Sarà necessario un campo per immettere del testo, ogni volta che viene
 inviato un nuovo testo esso diventerà un nuovo elemento della lista.
 
 Ogni elemento avrà un meccanismo per poterlo eliminare.
+
+-----
+
+[Soluzione](https://jsfiddle.net/piero80/e0ssye5c/)
